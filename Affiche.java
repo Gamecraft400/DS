@@ -30,7 +30,7 @@ public class Affiche
 
         for(int cpt = 0; cpt < nbEtoile; cpt++)
         {
-            s += "*";
+            s += "x";
             System.out.println(s);
         }
 
