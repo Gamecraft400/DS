@@ -5,8 +5,10 @@ public class Affiche
         System.out.println("DS R5.07");
         //Affiche.affiche_ligne();
         //Affiche.affiche_ligne2(Integer.parseInt(args[0]));
-        //Affiche.affiche_ligne3(4);
-        affiche_ligne4(4);
+
+        //Affiche.affiche_ligne3(args[0]);
+        Affiche.affiche_ligne4(args[0])
+
     }
 
 
@@ -46,7 +48,9 @@ public class Affiche
                 System.out.print(" ");
             }
             for (int k = 1; k <= i; k++) {
+
                 System.out.print("o");
+
             }
             System.out.println();
         }
